@@ -1,0 +1,674 @@
+
+@media screen and (min-width: 900px){
+
+
+
+
+body{
+	width:100%;
+	background-color: #000;
+	
+	}
+img {
+width: 100%;
+}
+
+
+
+
+header{
+	background-color: #fff;
+	width:100%;
+	height: 138px;
+	display: flex;
+	align-items: center;
+
+
+
+
+	
+}
+
+h2{
+	
+font-size:70px;	
+	color: #fff;
+	text-align: center;
+	margin: 50px 0;
+	font: bold;
+	
+}
+
+
+
+
+.log{
+	width: 75px;
+	height: 81px;
+
+	margin: 0 20px 10px;
+	
+}
+.log img{
+	width: 100%;
+	
+	
+}
+.mune{
+	width: 582px;
+	height: 34px;
+
+	
+}
+
+.mune ul{
+	display: flex;
+
+
+}
+.mune ul li{
+	width: calc(582px/3);
+	
+}
+.mune ul li a{
+	
+	font-size:23px;
+	
+}
+.login{
+	width: 300px;
+	height: 50px;
+	margin: 0 auto;
+	padding-left:30px;
+
+	
+}
+
+.login ul{
+	display: flex;
+	
+}
+.login ul li{
+	
+	width: calc(300px/4);
+	padding-left: 40px;
+	
+	
+	
+	
+	
+}
+	.login_li{
+		
+		margin-top: 10px;
+		
+	}
+.login ul li img{
+	
+	
+	width: 25px;
+	height: 25px;
+
+	
+}
+
+.center{
+	width:100%;
+	z-index: 9999px;
+	
+}
+
+#cope{
+	overflow: hidden;
+position: relative;
+	
+}
+
+.hyde_img{
+	
+	position: relative;
+	
+}
+.hyde_font{
+	
+	position: absolute;
+	left: 180px;
+	top: 590px;
+	
+	
+}
+.zoomIn{
+  animation-name:zoomInAnime;
+  animation-duration:0.5s;
+  animation-fill-mode:forwards;
+}
+
+@keyframes zoomInAnime{
+  from {
+  transform: scale(0.2);
+  opacity: 0;
+  }
+
+  to {
+    transform: scale(1);
+  opacity: 1;
+  }
+}
+.zoomInTrigger,
+.zoomOutTrigger{
+    opacity: 0;
+}
+
+/*線の設定*/
+.hyde_img span.mask{
+  position: relative;
+  display: block;/*画像をくくるspanタグをブロック要素にする*/
+    line-height: 0;/*行の高さを0にする*/
+}
+
+.hyde_img span.mask::before,
+.hyde_img span.mask::after{
+    position: absolute;
+    top: 4%;
+    right: 2.5%;
+    bottom: 4%;
+    left: 2.5%;
+    z-index: 3;
+    content:"";
+    opacity: 0;
+    transition: .3s ease-in-out;/*移り変わる速さを変更したい場合はこの数値を変更*/
+}
+
+.hyde_img span.mask::before {
+    border-top: 1px solid #fff;/*枠線の色と太さを変更したい場合はこの数値を変更*/
+    border-bottom: 1px solid #fff;/*枠線の色と太さを変更したい場合はこの数値を変更*/
+    transform: scale(0,1);
+}
+
+.hyde_img span.mask::after{
+    border-right: 1px solid #fff;/*枠線の色と太さを変更したい場合はこの数値を変更*/
+    border-left: 1px solid #fff;/*枠線の色と太さを変更したい場合はこの数値を変更*/
+    transform: scale(1,0);
+}
+
+.hyde_img:hover span.mask::before,
+.hyde_img:hover span.mask::after{/*hoverした時の変化*/
+  opacity: 1;
+    transform: scale(1);
+}
+
+/*中央テキスト*/
+.hyde_img span.cap{
+	font-size: 70px;
+  opacity:0;
+  transition: .5s ease-in-out;/*移り変わる速さを変更したい場合はこの数値を変更*/
+  position: absolute;
+  z-index:3;/*テキストを前面に出す*/
+  top: 50%;
+    left: 50%;
+  transform: translate(-50%,-50%);
+  color: #fff;/*テキストの色を変えたい場合はここを修正*/
+    line-height: 1.5;/*行の高さを1.5にする*/
+}
+
+.hyde_img:hover span.cap{/*hoverした時の変化*/
+  opacity:1;
+}
+.hipanda_contans{
+	
+	margin-top:30px;
+	
+	
+}
+#special{
+	margin-top: 140px;
+	
+	
+
+	
+	
+}
+.collcetion{
+		
+		width: 93.7%;
+		margin: 100px auto;
+		
+		overflow: hidden;
+		
+	
+	}
+.collcetion_img{
+		
+		margin:30px auto;
+		
+		
+		
+	}
+.fadeInTrigger,
+.fadeUpTrigger,
+.fadeDownTrigger,
+.fadeLeftTrigger,
+.fadeRightTrigger{
+    opacity: 0;
+}
+.fadeLeft{
+animation-name:fadeLeftAnime;
+animation-duration:1s;
+animation-fill-mode:forwards;
+opacity:0;
+}
+
+@keyframes fadeLeftAnime{
+  from {
+    opacity: 0;
+  transform: translateX(-200px);
+  }
+
+  to {
+    opacity: 1;
+  transform: translateX(0);
+  }
+	}
+	.fadeRight{
+animation-name:fadeRightAnime;
+animation-duration:1s;
+animation-fill-mode:forwards;
+opacity:0;
+}
+
+@keyframes fadeRightAnime{
+  from {
+    opacity: 0;
+  transform: translateX(200px);
+  }
+
+  to {
+    opacity: 1;
+  transform: translateX(0);
+  }
+}
+
+.item_top{
+	width: 93.7%;
+	height: 29.28%;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	
+	
+	
+}
+.item_inner{
+	text-align: center;
+	font-size: 60px;
+    font: bold;
+    color: #fff;;
+	width: 46.12%;
+	height: 29.28%;
+}
+.item_totle{
+	width: 630px;
+    
+	
+}
+.item_image{
+   
+	
+	
+}
+.item_image a{/*テキストの基点となる位置を定義*/
+  position: relative;
+  display: block;
+}
+.item_image img {
+  transition: all 0.35s ease;/*移り変わる速さを変更したい場合はこの数値を変更*/
+  backface-visibility: hidden;/*三次元になった際に裏面を可視化させない*/
+}
+
+.item_image a:hover img {/*hoverした時の変化*/
+  transform: rotateY(-180deg);
+  opacity: 0;
+}
+.item_image span.cap {
+/*ここからエリアの絶対配置の指定*/
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+/*ここまでエリアの絶対配置の指定*/
+  transition: all 0.35s ease;/*移り変わる速さを変更したい場合はこの数値を変更*/
+  transform: rotateY(90deg);/*横軸に回転*/
+  transform-origin: 50% 0%;/*回転する基点*/
+  opacity: 0;
+  background:#333;/*背景色*/
+  color: #fff;/*テキストの色を変えたい場合はここを修正*/
+ /*ここからテキスト中央寄せの指定*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ /*ここまでテキスト中央寄せの指定*/
+}
+
+.item_image a:hover span.cap {/*hoverした時の変化*/
+  transform: rotateY(0);/*横軸に回転*/
+  opacity: 1;
+  transition-delay: 0.15s;/*移り変わる速さを変更したい場合はこの数値を変更*/
+}
+
+.item_bottom{
+	display: flex;
+	width: 93.7%;
+	height: 29.28%;
+	justify-content: space-between;
+	margin: 80px auto;
+
+	
+}
+.item_bottom:hover{
+	
+
+	
+	
+	
+}
+
+
+.box_top{
+	display: flex;
+	width: 93.7%;
+	height: 36.53%;
+	margin: 0 auto;
+	justify-content: space-between;
+	
+}
+.box_inner{
+	width: 31.19%;
+	height: 36.53%;
+	opacity:1;
+  transition: .3s ease-in-out;
+}
+.box_inner:hover{
+	
+ opacity:0.8;
+	
+	
+	
+}
+
+.box_bottom{
+
+	display: flex;
+	width: 93.7%;
+	height: 36.53%;
+	margin:100px auto;
+	justify-content: space-between;
+}
+
+.box_text{
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+	margin: 10px 0	
+}
+.box_text dd{
+	
+font-size: 30px;	
+	
+	
+	
+}
+	.hipanda_style{
+		
+		 overflow: hidden;
+		
+	}
+.style_image{
+  position: relative;/*テキストの基点となる位置を定義*/
+}
+
+/*線の設定*/
+.style_image span.mask{
+  position: relative;
+  display: block;/*画像をくくるspanタグをブロック要素にする*/
+    line-height: 0;/*行の高さを0にする*/
+}
+
+.style_image span.mask::before,
+.style_imaget span.mask::after{
+    position: absolute;
+    top: 4%;
+    right: 2.5%;
+    bottom: 4%;
+    left: 2.5%;
+    z-index: 3;
+    content:"";
+    opacity: 0;
+    transition: .3s ease-in-out;/*移り変わる速さを変更したい場合はこの数値を変更*/
+}
+
+.style_image span.mask::before {
+    border-top: 1px solid #fff;/*枠線の色と太さを変更したい場合はこの数値を変更*/
+    border-bottom: 1px solid #fff;/*枠線の色と太さを変更したい場合はこの数値を変更*/
+    transform: scale(0,1);
+}
+
+.style_image span.mask::after{
+    border-right: 1px solid #fff;/*枠線の色と太さを変更したい場合はこの数値を変更*/
+    border-left: 1px solid #fff;/*枠線の色と太さを変更したい場合はこの数値を変更*/
+    transform: scale(1,0);
+}
+
+.style_image:hover span.mask::before,
+.style_image:hover span.mask::after{/*hoverした時の変化*/
+  opacity: 1;
+    transform: scale(1);
+}
+
+/*中央テキスト*/
+.style_image span.cap{
+	font-size: 70px;
+  opacity:0;
+  transition: .5s ease-in-out;/*移り変わる速さを変更したい場合はこの数値を変更*/
+  position: absolute;
+  z-index:3;/*テキストを前面に出す*/
+  top: 50%;
+    left: 50%;
+  transform: translate(-50%,-50%);
+  color: #fff;/*テキストの色を変えたい場合はここを修正*/
+    line-height: 1.5;/*行の高さを1.5にする*/
+}
+
+.style_image:hover span.cap{/*hoverした時の変化*/
+  opacity:1;
+}
+footer{
+	
+	width: 100%;
+	height: 23.35%;
+	
+	
+	
+	
+}
+foot_total{
+	
+}
+footer h2{
+	text-align: left;
+	color: #fff;
+	position: relative;
+	font-size: 49px;
+	
+}
+footer h2:after{
+	content: "";
+	background-color: #fff;
+	width:34%;
+	height: 0.29%;
+	display: inline-block;
+	position: absolute;
+	top: 27px;
+	left: 830px;
+	
+	
+}
+.foot_center{
+
+}
+
+.foot_inner{
+	width: 93.41%;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	
+	
+}
+/*.foot_button{
+	width: 973px;
+	height: 91px;
+	color: #000;
+	font-size: 53px;
+	background-color: #fff;
+	border-radius: 40px;
+	border:2px solid #000;
+    text-align: center;
+	
+	
+}*/
+.btntransform{
+    /*丸の基点とするためrelativeを指定*/
+    position: relative;
+    /*ボタンの形状*/  
+    display: inline-block;
+	width: 973px;
+	height: 91px;
+	font-size: 53px;
+    padding:0 0 0 15px;
+    line-height: 50px;
+    color: #333;
+    text-decoration: none;
+    outline: none;
+	text-align: center;
+}
+
+/* 丸が動く */
+.btntransform::before{
+  content:'';
+    /*絶対配置で丸の位置を決める*/
+  position:absolute;
+  left:0;
+  z-index: -1;
+    /*丸の形状*/
+  width:50px;
+  height:50px;
+  background:#FFF;
+  border-radius:25px;
+    /*アニメーションの指定*/
+    transition:.3s ease-out;
+}
+
+/*hoverした際の形状*/
+.btntransform:hover::before{
+  width:973px;
+}
+
+/* 矢印の形状 */
+.btntransform::after{
+  position: absolute;
+    content: '';
+    top: 1.3em;
+    right: -15px;
+    width: 10px;
+    height: 10px;
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    transform: rotate(45deg);
+}
+.foot_right{
+	
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-around;
+	
+	margin-top: 50px;
+	
+	
+	
+	
+}
+.foot_nav{
+	
+	margin-top: 70px;
+	
+}
+.foot_nav ul{
+	width: 973px;
+	display: flex;
+	
+	justify-content: space-between;
+	padding: 0 20px;
+	
+	
+}
+.foot_nav ul li{
+
+	
+
+	
+	
+	
+}
+
+.foot_nav ul li a{
+	
+	color: #fff;
+	font-size: 20px;
+	 position: relative;
+}
+.foot_nav li.current a,
+.foot_nav li a:hover{
+  color:#fff;
+}
+
+.foot_nav li a::after {
+    content: '';
+    /*絶対配置で線の位置を決める*/
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /*線の形状*/
+    width: 100%;
+    height: 2px;
+    background:#fff;
+    /*アニメーションの指定*/
+    transition: all .3s;
+    transform: scale(0, 1);/*X方向0、Y方向1*/
+    transform-origin: left top;/*左上基点*/
+}
+
+/*現在地とhoverの設定*/
+.foot_nav li.current a::after,
+.foot_nav li a:hover::after {
+    transform: scale(1, 1);/*X方向にスケール拡大*/
+}
+.foot_small{
+	
+	width: 100%;
+	margin: 30px 0;
+	text-align: right;
+	padding-right: 64px;
+	
+	
+	
+	
+}
+small{
+	
+	color: #fff;
+
+	
+}
+}

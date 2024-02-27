@@ -1,0 +1,330 @@
+/* CSS Document */
+@media screen and (min-width: 900px){
+body{
+	
+	width: 100%;
+	background-color: #000;
+	
+	
+	
+}
+img{
+	max-width: 100%;
+	height: auto;
+	
+}
+.main1{
+	
+	width: 100%;
+	height: 59.81%;
+
+	
+	
+	
+}
+.main_image{
+	
+	width: 100%;
+	margin-bottom: 30px;
+	
+	
+}
+.main_logo{
+	max-width:81.41%;
+	max-height: 13.62%;
+	text-align: center;
+	margin: 0 auto;
+
+	
+	
+}
+p{
+	color: #FFFFFF;
+	font-size: 23px;
+	text-align: justify-all;
+	margin: 40px 0;
+	padding: 0 120px;
+	line-height: 1.8;
+	
+}
+
+.center_special{
+	
+max-width: 100%;
+	
+	
+	
+	
+}
+h3{
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 43px;
+	margin: 100px 0 30px;
+	
+}
+
+.red_inner{
+	
+	display: flex;
+	max-width: 93.7%;
+	max-height: 42.02%;
+	color: #fff;
+	margin: 80px auto;
+	justify-content: space-between;
+	
+	
+}
+.red_style{
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: space-between;
+	
+	
+	
+}
+.style_img{
+max-width: 226px;
+	max-height: 272px;
+
+	
+}
+	.style_img img{
+  transform: scale(1);
+  transition: .3s ease-in-out;/*移り変わる速さを変更したい場合はこの数値を変更*/
+}
+
+.style_img:hover img{/*hoverした時の変化*/
+  transform: scale(1.2);/*拡大の値を変更したい場合はこの数値を変更*/
+}
+
+
+.red_image{
+
+
+}
+	.red_image img{
+  transform: scale(1);
+  transition: .3s ease-in-out;/*移り変わる速さを変更したい場合はこの数値を変更*/
+}
+
+.red_image:hover img{/*hoverした時の変化*/
+  transform: scale(1.2);/*拡大の値を変更したい場合はこの数値を変更*/
+}
+
+/*　画像のマスク　*/
+
+.mask{
+    display: block;
+    line-height: 0;/*行の高さを0にする*/
+    overflow: hidden;/*拡大してはみ出る要素を隠す*/
+}
+.commodity{
+
+
+	
+	
+}
+.red_commodity{
+	
+
+	
+}
+	.red_commodity img {
+		opacity:1;
+  transition: .3s ease-in-out;
+		
+		
+	}
+	.red_commodity img:hover{
+		
+		opacity:0.8;
+	}
+	
+.red_text{
+text-align: center;
+
+
+	
+	
+}
+.red_text dl{
+
+	padding-top: 100px;
+}
+.red_text dt{
+	
+	font-size: 16px;	
+	margin-bottom: 20px;
+	
+}
+.red_text dd{
+	
+	font-size: 30px;	
+	
+}
+.item1_top{
+		display: flex;
+	width: 93.7%;
+	height:35.94%;
+	margin: 0 auto;
+	justify-content: space-between;
+	
+	
+	
+	
+}
+.item1_inner{
+	
+	width: 29.94%;
+	height:45.61%;
+	
+	
+}
+	.item1_inner img{
+		 opacity:1;
+  transition: .3s ease-in-out;
+	}
+	.item1_inner img:hover{
+		opacity:0.8;
+  
+	}
+.item1_bottom{
+	display: flex;
+	width: 93.7%;
+	height: 35.94%;
+	margin: 100px auto;
+	justify-content: space-between;
+	
+	
+	
+}
+.item1_taxt{
+	
+	text-align: center;
+	color: #FFFFFF;
+	
+	
+}
+.item1_taxt dl{
+	
+	
+	
+}
+
+
+.item1_taxt dt{
+	font-size: 16px;	
+	
+    margin-top: 20px;
+}
+
+.item1_taxt dd{
+	
+		font-size: 30px;	
+	
+}
+.hyde{
+	display:flex;
+	width: 93.7%;
+	margin: 30px auto;
+	justify-content:space-between;
+	
+	
+	
+	
+}
+.hyde_img{
+	
+	width:45.53%;
+	
+	height:56.08%;
+	
+}
+	.hyde_img img{
+  transform: scale(1);
+  transition: .3s ease-in-out;/*移り変わる速さを変更したい場合はこの数値を変更*/
+}
+
+.hyde_img img:hover img{/*hoverした時の変化*/
+  transform: scale(1.2);/*拡大の値を変更したい場合はこの数値を変更*/
+}
+.hyde_style1{
+	
+	width: 93.7%;
+	margin: 0 auto;
+	justify-content: center;
+	
+}
+.hyde_style2{
+	width: 93.7%;
+	margin: 20px auto;
+	justify-content: center;
+
+	
+	
+	
+	
+	
+	
+}
+	.hyde_style1 img{
+  transform: scale(1);
+  transition: .3s ease-in-out;/*移り変わる速さを変更したい場合はこの数値を変更*/
+}
+
+.hyde_img img:hover img{/*hoverした時の変化*/
+  transform: scale(1.2);/*拡大の値を変更したい場合はこの数値を変更*/
+}
+
+}
+
+
+
+
+
+.fadeInTrigger,
+.fadeUpTrigger,
+.fadeDownTrigger,
+.fadeLeftTrigger,
+.fadeRightTrigger{
+    opacity: 0;
+}
+.fadeLeft{
+animation-name:fadeLeftAnime;
+animation-duration:1s;
+animation-fill-mode:forwards;
+opacity:0;
+}
+
+@keyframes fadeLeftAnime{
+  from {
+    opacity: 0;
+  transform: translateX(-200px);
+  }
+
+  to {
+    opacity: 1;
+  transform: translateX(0);
+  }
+	}
+	.fadeRight{
+animation-name:fadeRightAnime;
+animation-duration:1s;
+animation-fill-mode:forwards;
+opacity:0;
+}
+
+@keyframes fadeRightAnime{
+  from {
+    opacity: 0;
+  transform: translateX(200px);
+  }
+
+  to {
+    opacity: 1;
+  transform: translateX(0);
+  }
+}

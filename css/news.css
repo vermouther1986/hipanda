@@ -1,0 +1,41 @@
+/* CSS Document */
+
+.news{
+	
+	width: 100%;
+	position: relative;
+	
+}
+.slider a{
+    display: block;
+    background:#fff;
+    padding:20px;
+}
+
+/*日付*/
+.slider span {
+    display:inline-block;
+    font-size:0.8rem;
+    margin-right:10px;
+    color:#777;
+}
+.wrapper1 {
+    width:100%;
+    margin:0 auto;
+	position: absolute;
+	top:0;
+	left:0;
+}
+
+h1 {
+    text-align:center;
+    padding:20px;
+  font-size: 1.2rem;
+}
+
+a {
+    color:#333;
+    text-decoration:none;
+}
+
+

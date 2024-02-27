@@ -1,0 +1,109 @@
+/* CSS Document */
+body {
+  background-color: #000;
+	width: 100%;
+}
+.header{
+	z-index: 999;
+}
+.login_text{
+	font-size: 40px;
+	position: absolute;
+	top:-5%;
+	left:50%;
+
+	
+	
+}
+h5{
+	font-size: 40px;
+}
+form {
+  width: 400px;
+  padding: 40px 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #000;
+  text-align: center;
+}
+
+form h5,form p {
+  color: white;
+  font-weight: 500;
+}
+
+form p {
+  font-size: 10px;
+}
+
+form input[type = "id"],form input[type = "password"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  border: 2px solid #fff;
+  padding: 15px 10px;
+  width: 200px;
+  outline: none;
+  border-radius: 24px;
+  transition: 0.25s;
+  text-align: center;
+}
+
+form input[type = "id"]:focus,form input[type = "password"]:focus {
+  width: 280px;
+  background-color: #f0f8ff;
+}
+
+form input[type = "submit"]{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  border: 2px solid #f0f8ff;
+  padding: 15px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 25px;
+  transition: 0.25s;
+  text-align: center;
+  cursor: pointer;
+}
+
+form input[type = "submit"]:hover {
+  background-color: #fff;
+  border: 2px solid #ff69b4;
+}
+.foot_total{
+	
+position: absolute;
+top:500px;
+	left:-800px;
+	
+	
+	
+	
+	
+}
+.return{
+	
+	
+	
+	
+	
+}
+.return a{
+	font-size: 18px;
+	color: #fff;
+	
+transform: all 2s;
+
+
+}
+.return a:hover{
+	
+color: #BFB6B6	;
+}

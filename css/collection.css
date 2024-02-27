@@ -1,0 +1,159 @@
+/* CSS Document */
+body{
+	
+	width: 100%;
+	
+	
+	
+}
+img{
+	max-width: 100%;
+	height: auto;
+	
+	
+}
+
+
+.nijia{
+	
+	width: 93.7%;
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-between;
+	padding: 200px 0;
+	
+}
+p{
+	
+	color: #FFFFFF;
+	font-size: 20px;
+	
+	
+}
+.right_innner{
+
+	
+	
+	
+	
+}
+.nijia_taxt{
+	
+	color: #FFFFFF;
+	font-size: 29px;
+	padding-top: 50px;
+	
+}
+.nijia1_inner{
+	display: flex;
+	width: 93.7%;
+	margin: 0 auto;
+	justify-content:space-between;
+	align-items: center;
+	
+	
+	
+	
+	
+}
+.nijia2{
+	
+	margin: 10px 0;
+}
+.nijia2_inner{
+	
+	display: flex;
+	width: 93.7%;
+	margin: 0 auto;
+	justify-content:space-between;
+	align-items: center;
+
+	
+	
+}
+
+.line{
+	
+	margin-top: 30px;
+	
+	
+}
+.nijia3{
+	margin: 30px 0;
+
+	
+	
+}
+.nijia3_inner{
+	
+		display: flex;
+	width: 93.7%;
+	margin: 0 auto;
+	justify-content:space-between;	
+	
+	
+	
+}
+.nijia3_taxt{
+	width: 93.7%;
+	margin: 90px auto;
+	justify-content: center;
+	text-align: justify-all;
+	padding: 0 30px;
+	
+	
+	
+	
+}
+.line2{
+	
+	width: 100%;
+	
+	
+	
+}
+
+.nijia_item{
+	width: 93.7%;
+	margin: 50px auto;
+	text-align: center;
+	
+	
+	
+	
+	
+	
+	
+}
+.nijiaitem_image{
+margin-bottom: 20px;
+	
+	
+	
+	
+}
+.nijiaitem_image img{
+	
+	opacity:1;
+  transition: .3s ease-in-out;
+}
+.nijiaitem_image img:hover{
+	
+		opacity:0.8;
+}
+.nijia_item p{
+	
+	color: #FFFFFF;
+	font-size: 29px;
+	margin-bottom: 60px;
+	
+	
+	
+	
+	
+}
+
+
+
+
+

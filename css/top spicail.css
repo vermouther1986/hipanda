@@ -1,0 +1,32 @@
+/* CSS Document */
+
+body{
+	width: 100%;
+
+	
+}
+img{
+	width: 100%;
+}
+
+.gif{
+	width: 40.56%;
+	text-align: center;
+	padding-top: 138px;
+	margin:0 auto;
+	
+}
+.all_top{
+	
+	width: 93.7%;
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-between;
+	padding-top: 50px;
+}
+.all_bottom{
+	
+	width: 93.7%;
+	display: flex;
+	margin: 30px  auto;
+	justify-content: space-between}
